@@ -7,6 +7,12 @@
 
 #Eemplo
 class Persona():
+
+    def _init_(self, nombre, apellido, edad):
+        self.nombre = nombre
+        self.apellido = apellido
+        self.edad = edad
+    
     #Atributos(variables)
     nombre = "Cristina"
     apellido = "Torres"
@@ -20,13 +26,14 @@ class Persona():
         print(f"{self.nombre} esta caminando")
 
 #Creacion de un objeto de la clase persona
-persona1 = Persona()
+persona1 = Persona("Cristina", "Torres", 23)
+persona2 = Persona("Luis", "Hada", 70)
 
 #Acceso a los atributos y metodos del objeto
-print(f"Nombre: {persona1.nombre}")
-print(f"Apellido: {persona1.apellido}")
-print(f"Edad: {persona1.edad} años")
+print(f"{persona1.nombre}")
+print(f"{persona1.apellido}")
+print(f"{persona1.edad} años")
 
 #Llamando a los metodos de la clase
 persona1.hablar()
-persona1.caminar()
+persona2.caminar()
