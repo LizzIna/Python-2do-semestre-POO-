@@ -9,6 +9,6 @@ class Test:
         print("Este metodo tambien es publico, porque su nombre empieza y acaba por __")
 
 p = Test()
-p.__uno() #No funcina porque es privado
+#p.__uno() #No funcina porque es privado
 p.dos()
 p.__tres__()
