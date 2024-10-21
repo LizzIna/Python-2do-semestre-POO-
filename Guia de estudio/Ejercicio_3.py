@@ -27,7 +27,7 @@ class CuentaBancaria:
     def retiro(self, cantidad):
         if cantidad > self.__saldo:
             print(f"Debe ingresar un monto que no supere el valor en la cuenta")
-
+            
         elif cantidad <= 0:
             print(f"El monto debe ser positivo")
         
