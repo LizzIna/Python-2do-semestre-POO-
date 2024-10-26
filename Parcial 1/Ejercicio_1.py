@@ -95,6 +95,5 @@ class Inventario:
             print(f"El producto {nombre_producto} no está en el inventario.")
 
 
-
 #1. ¿Cómo podrías usar un método mágico para imprimir el estado de un gato?
 #2. Métodos de interacción entre las clases:
