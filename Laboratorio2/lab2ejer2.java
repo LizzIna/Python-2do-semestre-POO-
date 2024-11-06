@@ -1,7 +1,7 @@
-package lab2ejer2;
+package Laboratorio2;
 import java.util.Scanner;
 
-public class Lab2Ejer2 {
+public class lab2ejer2 {
     public static void main(String[] args) {
         Scanner keyword = new Scanner(System.in);
         
