@@ -1,8 +1,9 @@
-package EjericiosJava;
+package Retos;
 
 import java.util.Scanner;
 
 public class Reto2 {
+
     public static void main(String[] args) {
         
         Scanner keyword = new Scanner(System.in);
@@ -43,4 +44,5 @@ public class Reto2 {
         keyword.close();      
         
     }
+    
 }
