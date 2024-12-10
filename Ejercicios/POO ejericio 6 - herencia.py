@@ -62,10 +62,6 @@ class Pez(Animal):
     def info(self):
         print("Informacion del Pez: \n")
         print(f"Nombre: {self.nombre} \n edad: {self.edad} \n Especie: {self.especie} \n peso: {self.peso} \n color: {self.color} \n sonido: {self.sonido} \n ")
-    
-
-
-
 
 perro1 = Perro("Niebla", 3, "Quiltrometro", 11, "Amarillo", "Guau")
 gato1 = Gato("Michihausen", 2, 2, 5, "Blanco y gris", "Rauuul")
